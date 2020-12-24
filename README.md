@@ -1,23 +1,23 @@
 Compress
 ========
 
-[![Build Status](https://travis-ci.com/WyriHaximus/php-compress.png)](https://travis-ci.com/WyriHaximus/php-compress)
-[![Latest Stable Version](https://poser.pugx.org/WyriHaximus/compress/v/stable.png)](https://packagist.org/packages/WyriHaximus/compress)
-[![Total Downloads](https://poser.pugx.org/WyriHaximus/compress/downloads.png)](https://packagist.org/packages/WyriHaximus/compress)
-[![Coverage Status](https://coveralls.io/repos/WyriHaximus/php-compress/badge.png)](https://coveralls.io/r/WyriHaximus/php-compress)
-[![License](https://poser.pugx.org/wyrihaximus/compress/license.png)](https://packagist.org/packages/wyrihaximus/compress)
+[![Build Status](https://travis-ci.com/WyriHaximus/php-compress-contracts.png)](https://travis-ci.com/WyriHaximus/php-compress-contracts)
+[![Latest Stable Version](https://poser.pugx.org/WyriHaximus/compress-contracts/v/stable.png)](https://packagist.org/packages/WyriHaximus/compress-contracts)
+[![Total Downloads](https://poser.pugx.org/WyriHaximus/compress-contracts/downloads.png)](https://packagist.org/packages/WyriHaximus/compress-contracts)
+[![Coverage Status](https://coveralls.io/repos/WyriHaximus/php-compress-contracts/badge.png)](https://coveralls.io/r/WyriHaximus/php-compress-contracts)
+[![License](https://poser.pugx.org/wyrihaximus/compress-contracts/license.png)](https://packagist.org/packages/wyrihaximus/compress-contracts)
 
 ## Installation ##
 
 To install via [Composer](http://getcomposer.org/), use the command below, it will automatically detect the latest version and bind it with `~`.
 
 ```
-composer require wyrihaximus/compress 
+composer require wyrihaximus/compress-contracts 
 ```
 
 ## License ##
 
-Copyright 2019 [Cees-Jan Kiewiet](http://wyrihaximus.net/)
+Copyright 2020 [Cees-Jan Kiewiet](http://wyrihaximus.net/)
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
