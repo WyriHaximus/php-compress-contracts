@@ -6,3 +6,5 @@ vendor/
 
 # ide
 .idea/
+var/*
+!var/.gitkeep
