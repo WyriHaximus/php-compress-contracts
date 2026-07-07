@@ -1,29 +1,56 @@
 {
-    "name": "wyrihaximus/compress-contracts",
-    "description": "Compress marker interface",
-    "keywords": [
-        "compress"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Cees-Jan Kiewiet",
-            "email": "ceesjank@gmail.com",
-            "homepage": "http://wyrihaximus.net/"
-        }
-    ],
-    "require": {
-        "php": "^8 || ^7.4"
-    },
-    "config": {
-        "platform": {
-            "php": "7.4.7"
-        },
-        "sort-packages": true
-    },
-    "autoload": {
-        "psr-4": {
-            "WyriHaximus\\Compress\\": "src/"
-        }
+  "name": "wyrihaximus/compress-contracts",
+  "description": "Compress marker interface",
+  "license": "MIT",
+  "keywords": [
+    "compress"
+  ],
+  "authors": [
+    {
+      "name": "Cees-Jan Kiewiet",
+      "email": "ceesjank@gmail.com",
+      "homepage": "http://wyrihaximus.net/"
     }
+  ],
+  "require": {
+    "php": "^8.4"
+  },
+  "require-dev": {
+    "wyrihaximus/makefiles": "^0.12.3",
+    "wyrihaximus/test-utilities": "^13.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "WyriHaximus\\Compress\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "ergebnis/composer-normalize": true,
+      "infection/extension-installer": true,
+      "phpstan/extension-installer": true,
+      "wyrihaximus/makefiles": true,
+      "wyrihaximus/test-utilities": true
+    },
+    "platform": {
+      "php": "8.4.13"
+    },
+    "sort-packages": true
+  },
+  "extra": {
+    "wyrihaximus": {
+      "supported-features": {
+        "unit-tests": false
+      }
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "make on-install-or-update || true"
+    ],
+    "post-update-cmd": [
+      "make on-install-or-update || true"
+    ]
+  }
 }
