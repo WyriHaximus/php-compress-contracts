@@ -1,21 +1,20 @@
-Compress
-========
+# Compress Contracts
 
-[![Build Status](https://travis-ci.com/WyriHaximus/php-compress-contracts.png)](https://travis-ci.com/WyriHaximus/php-compress-contracts)
+
+![Continuous Integration](https://github.com/wyrihaximus/php-compress-contracts/workflows/Continuous%20Integration/badge.svg)
 [![Latest Stable Version](https://poser.pugx.org/WyriHaximus/compress-contracts/v/stable.png)](https://packagist.org/packages/WyriHaximus/compress-contracts)
 [![Total Downloads](https://poser.pugx.org/WyriHaximus/compress-contracts/downloads.png)](https://packagist.org/packages/WyriHaximus/compress-contracts)
-[![Coverage Status](https://coveralls.io/repos/WyriHaximus/php-compress-contracts/badge.png)](https://coveralls.io/r/WyriHaximus/php-compress-contracts)
 [![License](https://poser.pugx.org/wyrihaximus/compress-contracts/license.png)](https://packagist.org/packages/wyrihaximus/compress-contracts)
 
-## Installation ##
+## Installation
 
 To install via [Composer](http://getcomposer.org/), use the command below, it will automatically detect the latest version and bind it with `~`.
 
 ```
-composer require wyrihaximus/compress-contracts 
+composer require wyrihaximus/compress-contracts
 ```
 
-## License ##
+## License
 
 Copyright 2026 [Cees-Jan Kiewiet](http://wyrihaximus.net/)
 
